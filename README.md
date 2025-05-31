@@ -232,10 +232,6 @@ server.port=8080
 - Check firewall settings
 - Ensure 2FA is enabled on Gmail
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 👤 Author
 
 **Katha Patel**
