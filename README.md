@@ -50,8 +50,8 @@ Before running this application, make sure you have:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/krp2001/qnaverse.git
-cd qnaverse
+git clone https://github.com/krp2001/QnAVerse.git
+cd QnAVerse
 ```
 
 ### 2. Database Setup
