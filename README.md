@@ -1,8 +1,8 @@
-# 🌟 QnAverse
+# QnAverse
 
 A modern Q&A platform built with Spring Boot that enables users to ask questions, provide answers, and engage in meaningful discussions within a secure and user-friendly environment.
 
-## 🚀 Features
+## Features
 
 - **User Authentication & Authorization** - Secure login system with Spring Security
 - **Question Management** - Create, view, and manage questions
@@ -12,7 +12,7 @@ A modern Q&A platform built with Spring Boot that enables users to ask questions
 - **Role-based Access Control** - Different user permissions and roles
 - **Data Validation** - Server-side input validation
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Backend
 - **Java 21** - Latest LTS version
@@ -37,7 +37,7 @@ A modern Q&A platform built with Spring Boot that enables users to ask questions
 - **Apache Tomcat** - Embedded server
 - **Eclipse IDE** - Development environment
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before running this application, make sure you have:
 
@@ -46,7 +46,7 @@ Before running this application, make sure you have:
 - **Maven 3.6+** for dependency management
 - **Git** for version control
 
-## ⚡ Quick Start
+## Quick Start
 
 ### 1. Clone the Repository
 ```bash
@@ -99,7 +99,7 @@ Open your browser and navigate to:
 http://localhost:9090
 ```
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 qnaverse/
@@ -124,7 +124,7 @@ qnaverse/
 └── README.md                       # Project documentation
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### Email Setup
 The application uses Gmail SMTP for email notifications. To configure:
@@ -146,7 +146,7 @@ The application supports:
 - Connection pooling
 - Transaction management
 
-## 🚦 API Endpoints
+## API Endpoints
 
 ### Authentication
 - `GET /login` - Login page
@@ -162,7 +162,7 @@ The application supports:
 - `GET /questions/{id}` - View specific question
 - `POST /questions/{id}/answers` - Submit answer
 
-## 🧪 Testing
+## Testing
 
 Run the test suite:
 ```bash
@@ -174,7 +174,7 @@ Run specific test classes:
 ./mvnw test -Dtest=ControllerTest
 ```
 
-## 📦 Deployment
+## Deployment
 
 ### Production Build
 ```bash
@@ -196,7 +196,7 @@ docker build -t qnaverse .
 docker run -p 9090:9090 qnaverse
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -204,7 +204,7 @@ docker run -p 9090:9090 qnaverse
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 Development Guidelines
+## Development Guidelines
 
 - Follow Java coding conventions
 - Write unit tests for new features
@@ -212,7 +212,7 @@ docker run -p 9090:9090 qnaverse
 - Use meaningful commit messages
 - Ensure code passes all existing tests
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -232,14 +232,14 @@ server.port=8080
 - Check firewall settings
 - Ensure 2FA is enabled on Gmail
 
-## 👤 Author
+## Author
 
 **Katha Patel**
 - Email: kathapatel111@gmail.com
 - LinkedIn: [kathapatel29](https://linkedin.com/in/kathapatel29)
 - GitHub: [@krp2001](https://github.com/krp2001)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Spring Boot team for the amazing framework
 - Spring Security for robust authentication
